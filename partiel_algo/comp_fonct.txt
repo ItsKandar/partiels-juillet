@@ -1,0 +1,8 @@
+Les assertions suivantes sont elles vraies ou fausses ? Justifier
+
+1. 2^n + n! = O(2^n) - VRAI : 2^n + n! <= 2^n + 2^n <= 2*2^n = 2^(n+1) = O(2^n)
+2. n + 6n^2 = O(n^2) - VRAI : n + 6n^2 <= 7n^2 = O(n^2)
+3. 8n + log(n) = O(n * log(n)) - VRAI : 8n + log(n) <= 8n + n = 9n = O(n * log(n))
+4. 8n + log(n) = O(log(n)) - FAUX : 8n + log(n) >= log(n) = O(log(n))
+5. 5n + 9n^3 = O(n^3) - VRAI : 5n + 9n^3 <= 14n^3 = O(n^3)
+6. 2n^3 + 4n^2 + 9n + 1 = O(n^2) - FAUX : 2n^3 + 4n^2 + 9n + 1 >= 2n^3 = O(n^3)
