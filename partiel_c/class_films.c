@@ -26,7 +26,7 @@ int main()
     // On demande les films préférés à l'utilisateur par ordre de preference
     for (i = 0; i < NB_FILMS; i++)
     {
-        printf("Quel est votre %de film préféré ? ", i + 1);
+        printf("Entrez votre film prefere n°%d : ", i + 1);
         film = malloc(TAILLE_MAX * sizeof(char));
         scanf("%s", film);
         films[i] = film;
